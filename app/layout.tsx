@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import StatusBar from "./components/status-bar";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,7 +15,10 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body>
-        {children}
+        <div>
+          <StatusBar />
+          {children}
+        </div>
       </body>
     </html>
   );

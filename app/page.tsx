@@ -1,22 +1,6 @@
-import { Wifi, BatteryFull, Zap } from 'lucide-react';
-
 export default function Home() {
   return (
     <div>
-      <div className="flex items-center px-2 py-1 text-sm bg-gray-200">
-        <div className="flex-1 flex items-center gap-2">
-          <span>No Service</span>
-          <Wifi className='size-4' />
-        </div>
-        <div className="flex-1 text-center">
-          <span>18:43</span>
-        </div>
-        <div className="flex-1 flex items-center justify-end gap-2">
-          <span>100%</span>
-          <BatteryFull className='size-4' />
-          <Zap className='size-4' />
-        </div>
-      </div>
 
       <div className="my-20 px-16 space-y-6">
         <h1 className="text-2xl font-bold text-center">Welcome to KakaoTalk</h1>
