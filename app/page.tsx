@@ -3,7 +3,7 @@ export default function Home() {
     <div>
 
       <div className="my-20 px-16 space-y-6">
-        <h1 className="text-2xl font-bold text-center">Welcome to KakaoTalk</h1>
+        <h1 className="text-2xl font-bold text-center">Welcome to Kokoa Talk</h1>
         <p className="text-md text-center text-muted-foreground">If you have a Kakao Account, log in with your email or phone number</p>
       </div>
 
